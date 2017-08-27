@@ -23,7 +23,6 @@ function runServer() {
 }
 
 //... closeServer defined here
-
 if (require.main === module) {
   runServer().catch(err => console.error(err));
 };
